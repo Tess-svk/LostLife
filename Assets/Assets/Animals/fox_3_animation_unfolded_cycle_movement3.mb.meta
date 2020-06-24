@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: de582eb616a19b948b1902056586a658
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back
+    100002: body
+    100004: cluster1Handle
+    100006: cluster2Handle
+    100008: cluster3Handle
+    100010: cluster4Handle
+    100012: curve1
+    100014: fox_1:pCube3
+    100016: fox_1:transform1
+    100018: fox_1:transform3
+    100020: fox_1:transform5
+    100022: //RootNode
+    100024: group
+    100026: group1
+    100028: group10
+    100030: group11
+    100032: group12
+    100034: group13
+    100036: group14
+    100038: group15
+    100040: group16
+    100042: group2
+    100044: group3
+    100046: group4
+    100048: group5
+    100050: group6
+    100052: group7
+    100054: group8
+    100056: group9
+    100058: head
+    100060: ikHandle1
+    100062: ikHandle2
+    100064: ikHandle3
+    100066: ikHandle4
+    100068: joint10
+    100070: joint11
+    100072: joint12
+    100074: joint13
+    100076: joint14
+    100078: joint15
+    100080: joint16
+    100082: joint17
+    100084: joint18
+    100086: joint19
+    100088: joint20
+    100090: joint21
+    100092: joint22
+    100094: joint29
+    100096: joint31
+    100098: joint32
+    100100: joint33
+    100102: joint34
+    100104: joint4
+    100106: joint5
+    100108: joint52
+    100110: joint53
+    100112: joint54
+    100114: joint55
+    100116: joint56
+    100118: joint57
+    100120: joint58
+    100122: joint59
+    100124: joint6
+    100126: joint60
+    100128: joint61
+    100130: joint62
+    100132: joint63
+    100134: joint64
+    100136: joint65
+    100138: joint66
+    100140: joint67
+    100142: joint68
+    100144: joint69
+    100146: joint7
+    100148: joint8
+    100150: joint9
+    100152: L_ankle_ik
+    100154: L_Ball_ik
+    100156: L_bck_ankle_grp
+    100158: L_bck_Ball_grp
+    100160: L_bck_foot_grp
+    100162: L_bck_knee
+    100164: L_bck_knee 1
+    100166: L_bck_toe_grp
+    100168: L_bck_toe_grp 1
+    100170: L_frt_ankle_grp
+    100172: L_frt_ankle_ik
+    100174: L_frt_ball_grp
+    100176: L_frt_ball_ik
+    100178: L_frt_foot_ctrl
+    100180: L_frt_foot_grp
+    100182: L_frt_knee
+    100184: L_frt_toe_grp
+    100186: L_frt_toe_grp 1
+    100188: L_frt_toe_ik
+    100190: L_toe_ik
+    100192: left
+    100194: nurbsCircle1
+    100196: pasted__group
+    100198: pasted__group 1
+    100200: pasted__group 2
+    100202: pasted__group6
+    100204: pasted__group6 1
+    100206: pasted__group9
+    100208: pasted__group9 1
+    100210: pasted__nurbsCircle1
+    100212: pasted__nurbsCircle1 1
+    100214: pasted__nurbsCircle1 2
+    100216: pasted__nurbsCircle2
+    100218: pasted__nurbsCircle3
+    100220: pasted__nurbsCircle4
+    100222: pasted__pasted__group6
+    100224: pasted__pasted__group6 1
+    100226: pasted__pasted__L_bck_foot_ctrl
+    100228: pasted__pasted__nurbsCircle1
+    100230: pasted__pasted__nurbsCircle1 1
+    100232: pasted__pasted__pasted__nurbsCircle1
+    100234: pasted__pasted__pasted__nurbsCircle1 1
+    100236: pCone2
+    100238: pCube1
+    100240: pSphere1
+    100242: pSphere2
+    100244: R_ankle_ik
+    100246: R_ball_ik
+    100248: R_bck_ankle_grp
+    100250: R_bck_ball_grp
+    100252: R_bck_foot_ctrl
+    100254: R_bck_foot_grp
+    100256: R_bck_knee
+    100258: R_bck_toe_grp
+    100260: R_bck_toe_grp 1
+    100262: R_brk_knee
+    100264: R_frt_ankle_grp
+    100266: R_frt_ball_grp
+    100268: R_frt_foot_ctrl
+    100270: R_frt_foot_grp
+    100272: R_frt_knee
+    100274: R_frt_knee 1
+    100276: R_frt_toe_grp
+    100278: R_toe_grp
+    100280: R_toe_ik
+    100282: root
+    100284: tail
+    100286: Tail1
+    400000: back
+    400002: body
+    400004: cluster1Handle
+    400006: cluster2Handle
+    400008: cluster3Handle
+    400010: cluster4Handle
+    400012: curve1
+    400014: fox_1:pCube3
+    400016: fox_1:transform1
+    400018: fox_1:transform3
+    400020: fox_1:transform5
+    400022: //RootNode
+    400024: group
+    400026: group1
+    400028: group10
+    400030: group11
+    400032: group12
+    400034: group13
+    400036: group14
+    400038: group15
+    400040: group16
+    400042: group2
+    400044: group3
+    400046: group4
+    400048: group5
+    400050: group6
+    400052: group7
+    400054: group8
+    400056: group9
+    400058: head
+    400060: ikHandle1
+    400062: ikHandle2
+    400064: ikHandle3
+    400066: ikHandle4
+    400068: joint10
+    400070: joint11
+    400072: joint12
+    400074: joint13
+    400076: joint14
+    400078: joint15
+    400080: joint16
+    400082: joint17
+    400084: joint18
+    400086: joint19
+    400088: joint20
+    400090: joint21
+    400092: joint22
+    400094: joint29
+    400096: joint31
+    400098: joint32
+    400100: joint33
+    400102: joint34
+    400104: joint4
+    400106: joint5
+    400108: joint52
+    400110: joint53
+    400112: joint54
+    400114: joint55
+    400116: joint56
+    400118: joint57
+    400120: joint58
+    400122: joint59
+    400124: joint6
+    400126: joint60
+    400128: joint61
+    400130: joint62
+    400132: joint63
+    400134: joint64
+    400136: joint65
+    400138: joint66
+    400140: joint67
+    400142: joint68
+    400144: joint69
+    400146: joint7
+    400148: joint8
+    400150: joint9
+    400152: L_ankle_ik
+    400154: L_Ball_ik
+    400156: L_bck_ankle_grp
+    400158: L_bck_Ball_grp
+    400160: L_bck_foot_grp
+    400162: L_bck_knee
+    400164: L_bck_knee 1
+    400166: L_bck_toe_grp
+    400168: L_bck_toe_grp 1
+    400170: L_frt_ankle_grp
+    400172: L_frt_ankle_ik
+    400174: L_frt_ball_grp
+    400176: L_frt_ball_ik
+    400178: L_frt_foot_ctrl
+    400180: L_frt_foot_grp
+    400182: L_frt_knee
+    400184: L_frt_toe_grp
+    400186: L_frt_toe_grp 1
+    400188: L_frt_toe_ik
+    400190: L_toe_ik
+    400192: left
+    400194: nurbsCircle1
+    400196: pasted__group
+    400198: pasted__group 1
+    400200: pasted__group 2
+    400202: pasted__group6
+    400204: pasted__group6 1
+    400206: pasted__group9
+    400208: pasted__group9 1
+    400210: pasted__nurbsCircle1
+    400212: pasted__nurbsCircle1 1
+    400214: pasted__nurbsCircle1 2
+    400216: pasted__nurbsCircle2
+    400218: pasted__nurbsCircle3
+    400220: pasted__nurbsCircle4
+    400222: pasted__pasted__group6
+    400224: pasted__pasted__group6 1
+    400226: pasted__pasted__L_bck_foot_ctrl
+    400228: pasted__pasted__nurbsCircle1
+    400230: pasted__pasted__nurbsCircle1 1
+    400232: pasted__pasted__pasted__nurbsCircle1
+    400234: pasted__pasted__pasted__nurbsCircle1 1
+    400236: pCone2
+    400238: pCube1
+    400240: pSphere1
+    400242: pSphere2
+    400244: R_ankle_ik
+    400246: R_ball_ik
+    400248: R_bck_ankle_grp
+    400250: R_bck_ball_grp
+    400252: R_bck_foot_ctrl
+    400254: R_bck_foot_grp
+    400256: R_bck_knee
+    400258: R_bck_toe_grp
+    400260: R_bck_toe_grp 1
+    400262: R_brk_knee
+    400264: R_frt_ankle_grp
+    400266: R_frt_ball_grp
+    400268: R_frt_foot_ctrl
+    400270: R_frt_foot_grp
+    400272: R_frt_knee
+    400274: R_frt_knee 1
+    400276: R_frt_toe_grp
+    400278: R_toe_grp
+    400280: R_toe_ik
+    400282: root
+    400284: tail
+    400286: Tail1
+    2000000: back
+    2000002: left
+    2100000: lambert1
+    4300000: fox_1:pCube3
+    4300002: pSphere1
+    4300004: pSphere2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fox_1:pCube3
+    13700002: pSphere1
+    13700004: pSphere2
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
